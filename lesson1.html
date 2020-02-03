@@ -1,0 +1,54 @@
+<!-- A comment: use these to document your code. Well documented code is useful to others and to yourself, when yo come back to your code late (you can consider 6-month future you anoter developer, trust me, you'll be wondering what was that developer thinking before remembering it was you who wrote this-->
+
+<!-- Document type declaration: what is this page using? HTML, XHTML etc. -->
+<!DOCTYPE html>
+<!-- the <html> tag is the root of an HTML page -->
+<html>
+
+  <!-- While not required in HTML, it is a good idea to maintain a clean and consistent indentation of nested elements -->
+  <head>  <!-- contains thell the metadata related to the page  -->
+    
+    <!-- the title of the page -->
+    <title>Title of the document - Look for me in the tab of the browser</title>
+    
+    <!-- Internal styles. This is less specific than inline styles but more specific than external styles. This will only work on this page-->
+    <style>
+      /* A css comment */
+      /* Classes can be targeted by using . in front of the class name */
+      .lesson1SpecialParagraph {
+        color: darkorchid;
+      }
+    </style>
+
+  </head>
+
+  <!-- The body, the visible part of the HTML document-->
+  <body>
+
+    <!-- A div, a basic container. It can be "named" using a class for example -->
+    <div class="mainContainer">
+      <!-- Use headers (h1 to h6, h1 being the most important, H6 the least important) for semantic purposes, the lower the number, the higher the nesting level -->
+      <h1>My page title</h1>
+      <div class="intro">
+        <!-- a paragraph -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit rerum rem ipsam? Ipsa animi reprehenderit vitae, ad soluta distinctio ab, voluptate voluptatibus itaque saepe quas sint praesentium tempore deserunt amet.</p>
+      </div>
+      <div>
+        <!-- IDs can be used only once, it must be unique -->
+        <p id="unique">A unique paragraph, there are no other like this one!</p>
+        <!-- Inline styling. Very specific. Use inline styling sparingly, this is hard to override -->
+        <p style="color: fuchsia">Very specific content.</p>
+        <!-- use a class to style multiple elements with the same styles at once -->
+        <p class="lesson1SpecialParagraph">Special content for lesson one. It's different from the rest.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          <br /> <!-- Self closing tag. While using an HTML doctype, <br> is acceptable. <br /> is the XHTML (stricter) version -->
+          Rerum rem ratione dolorem praesentium, iure fuga incidunt quasi dolore. Esse nemo iusto quas velit porro dolorum, optio corrupti modi doloribus non.</p>
+        <p class="lesson1SpecialParagraph">Special content for lesson one. It's different from the rest.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nostrum officia quam dolorem, vero quidem pariatur consequatur? Quas et quo asperiores excepturi ipsum in enim dolorum! Consectetur incidunt quis voluptatem?</p>
+        <p class="lesson1SpecialParagraph">Special content for lesson one. It's different from the rest.</p>
+      </div>
+    </div>
+
+  </body>
+
+</html> 

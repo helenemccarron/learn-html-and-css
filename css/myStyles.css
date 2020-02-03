@@ -1,0 +1,16 @@
+body {
+  background: lightsteelblue;
+}
+/* use the tag itself to target all tags of the same nature. Here, all the paragraphs will be dark gray */
+p {
+  /* 
+  Colors can be defined using predefined keywords (such as white or black) or hexadecimal values (6 digits), also known as "hex". Hexes can be shortened when the last three digits repeat: #333333 can be shortened to #333. 
+  Black (#000000) and white (#ffffff) are easy to remember and can be shortened to #000 and #fff
+  */
+  color: #333333; 
+}
+/* use # to traget an ID */
+#unique {
+  font-size: 16px;
+  color: blue;
+}
